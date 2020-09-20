@@ -26,3 +26,6 @@ router.post('/quiz', async (ctx, next) => {
   }
 });
 ```
+---
+### English
+My english level is pre-internmediate. But I really want to improve my english, and now I'm learning grammar and rules on the book "Destination B1", studing a useful audio and video content, also I communicate with native speakers in the app.
