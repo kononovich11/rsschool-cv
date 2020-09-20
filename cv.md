@@ -27,5 +27,12 @@ router.post('/quiz', async (ctx, next) => {
 });
 ```
 ---
-### English
+## Experience 
+| Course | Description |
+|:-------|-------------|
+|Paralect(full-stack)|Studied technologies in full stack development, took part in a team project.|
+|Udemy(js)| Studied JS, did home projects.|
+|Udemy(html, css)| Studied html and css, did layout projects.|
+---
+## English
 My english level is pre-internmediate. But I really want to improve my english, and now I'm learning grammar and rules on the book "Destination B1", studing a useful audio and video content, also I communicate with native speakers in the app.
