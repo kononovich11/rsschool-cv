@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+<body>
+  <header>
+    <img src="img/photo.jpg" alt="avatar" class="header__avatar">
+    <h1 class="header__title">Halina Kononovich</h1>
+  </header>
+  <section class="summary">
+    My goal is to become a front-end developer, who creates interesting and useful applications for people.
+  </section>
+  <div class="container-str">
+  <section class="contact">
+    <h2>Contact Info</h2>
+    <ul>
+      <li>Phone: +375295784951</li>
+      <li>Email: kononovich1703@gmail.com</li>
+    </ul>
+    <h2>Skills</h2>
+    <ul>
+      <li>✓HTML</li>
+      <li>✓CSS</li>
+      <li>✓SCSS</li>
+      <li>✓BEM</li>
+      <li>✓JS</li>
+      <li>✓React.js</li>
+      <li>✓MongoDB</li>
+    </ul>
+    <h2>Education</h2>
+    <p>Belarusian State University of Informatics and Radioelectronics, 2016-2020</p>
+    <h2>English</h2>
+    <p>My english level is pre-internmediate. But I really want to improve my english, and now I'm learning grammar and rules on the book "Destination B1", studing a useful audio and video content, also I communicate with native speakers in the app.</p>
+  </section>
+  <section class="code">
+    <pre>
+      router.post('/quiz', async (ctx, next) => {
+        try {
+          const answer = await schema.validateAsync(ctx.request.body);
+          db.push(answer);
+          ctx.response.body = JSON.stringify({answer: 'Thanks for your answer!'});
+        }
+        catch (err) { 
+          ctx.response.body = JSON.stringify({error: err});
+          console.log(err);
+        }
+      });
+    </pre>
+  </section>
+
+</div>
+
+<section class="courses">
+  <table>
+    <tr>
+      <th>Course</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>Paralect(full-stack)</td>
+      <td>Studied technologies in full stack development, took part in a team project.</td>
+    </tr>
+    <tr>
+      <td>Udemy(js)</td>
+      <td>Studied JS, did home projects.</td>
+    </tr>
+    <tr>
+      <td>Udemy(html, css)</td>
+      <td>Studied html and css, did layout projects.</td>
+    </tr>
+  </table>
+</section>
+
+</body>
+</html>
